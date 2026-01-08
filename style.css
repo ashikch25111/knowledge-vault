@@ -41,5 +41,78 @@ body{
     color: #fff;
     background-color: #30b868;
     border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
+
+.hero-container{
+    width: 100%;
+    min-height: 100vh;
+    background: url(assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-box{
+    width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-box a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #30b868;
+    background-color: #fff;
+    border-radius: 100px;
+    margin-top: 115px;
+}
+.hero-text{
+     text-align: center;
+}
+.hero-box h1{
+    font-size: 72px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 16px;
+}
+.hero-text h1 .hero-green{
+    color: #30b868;
+}
+.hero-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 16px;
+    color: #fff;
+}
+.hero-box .content-btn{
+    margin-top: 32px;
+    display: flex;
+    gap: 16px;
+}
+.hero-box .content-btn .btn{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 16px;
+  color: #ffffff;
+  background-color: #30b868;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.hero-box .content-btn .second{
+   font-size: 16px;
+  font-weight: 600;
+  padding: 16px;
+  color: #30b868;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
