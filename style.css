@@ -9,6 +9,7 @@ body{
     font-optical-sizing: auto;
 }
 
+/* header section */
 .nav-container{
     width: 100%;
     max-width: 1600px;
@@ -45,6 +46,8 @@ body{
     cursor: pointer;
 }
 
+
+/* hero section banner */
 .hero-container{
     width: 100%;
     min-height: 100vh;
@@ -116,6 +119,8 @@ body{
   cursor: pointer;
 }
 
+
+/* Card Section */
 .card-container{
     width: 100%;
     padding: 120px 20px 0px 20px;
@@ -175,6 +180,8 @@ body{
     line-height: 20px;
 }
 
+
+/* idea section */
 .idea-container{
     width: 100%;
     padding: 120px 0;
@@ -228,6 +235,10 @@ body{
     color: #001931;
 }
 
+
+
+/* Ready container */
+
 .ready-container{
     width: 100%;
 }
@@ -273,4 +284,60 @@ body{
     font-weight: 400px;
     line-height: 24px;
     color: #627382;
+}
+
+
+/* footer section */
+
+.footer-container {
+    width: 100%;
+    background-color: #001931;
+}
+
+.footer-box{
+    max-width: 1360px;
+    margin: 0px auto;
+    text-align: left;
+}
+
+.footer-box .media-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 120px 80px 120px;
+}
+
+.media-box p{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.media-box .social-links{
+    display: flex;
+    gap: 16px;
+}
+
+.media-box .social-links .icon{
+    width: 30px;
+    height: 30px;
+    color: #000000;
+    background-color: #fff;
+
+    font-size: 24px;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-box .copyright{
+    font-size: 16px;
+    font-weight: 400;
+    color: #fafafa;
+    border-top: 1px solid #627382;
+    padding: 30px;
 }
